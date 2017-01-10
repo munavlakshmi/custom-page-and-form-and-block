@@ -1,0 +1,5 @@
+name: custom_page
+type: module
+description: This is example of custom page
+core: 8.x
+package: Custom

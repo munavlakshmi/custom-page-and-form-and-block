@@ -1,0 +1,17 @@
+
+cp.custom_page_controller_display:
+  path: '/custompage'
+  defaults:
+    _controller: '\Drupal\cp\Controller\CustomPageController::display'
+    _title: 'display'
+  requirements:
+    _permission: 'access content'
+
+cp.id_custom_form:
+  path: '/cp/form/custom'
+  defaults:
+    _form: '\Drupal\cp\Form\CustomForm'
+    _title: 'CustomForm'
+  requirements:
+    _access: 'TRUE'
+  
